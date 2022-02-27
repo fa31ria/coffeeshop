@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    
+}
+body{
+    font-family: "Roboto";
+}
+.header{
+    background:#ffffff;
+}
+.header .container{
+   
+  background: #ffffff;
+}
+.header .container .row .col-xl-10 .navbar ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:20px;
+
+}
+.header .container .row .col-xl-10 .navbar ul li{
+    margin-left: 45px;
+    list-style: none;
+}
+.header .container .row .col-xl-10 .navbar ul li a{
+  
+        font-size: 18px;
+       
+        color: rgb(55, 47, 45);
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+      
+      
+}
+.header .container .row .col-xl-10 .navbar .fa-bars{
+    font-size: 30px;
+    color: rgb(243, 118, 106);
+    display: none;
+}
+.header .container .row .col-xl-2 .box{
+   
+   
+        background-color: rgb(243, 118, 106);
+        
+        width: 113px;
+        height: 42px;
+        text-align: center;
+        margin-top:30px;
+     
+      
+} 
+.header .container .row .col-xl-2 .box i{
+    float:left;
+    font-size: 15px;
+    color:#ffffff;
+    padding-top: 8px;
+    padding-left: 5px;
+   
+    
+}
+.header .container .row .col-xl-2 .box p{
+    display:inline-block;
+   
+        font-size: 14px;
+      
+        color: rgb(255, 255, 255);
+        line-height: 1.929;
+        text-align: center;
+     
+      
+}
+.header .container .row .col-xl-2 p{
+    
+        font-size: 14px;
+       
+        color: rgb(55, 47, 45);
+        line-height: 1.929;
+        text-align: right;
+     
+   
+        
+}
+
+    
+
+.home .container-fluid .row .col-xl-12 h1{
+   
+        font-size: 357.37px;
+   
+        color: rgb(247, 167, 160);
+     
+        text-align: center;
+        font-weight: 800;
+        padding-top: 80px;
+        
+      
+   
+    
+}
+.home .container-fluid .row .col-xl-12 img{
+    margin-left: 40%;
+    margin-top: -30%;
+    transform: rotate(5deg);
+
+}
+.home .container-fluid .row .col-xl-12 h3{
+   
+        font-size: 36px;
+       
+        color: rgb(55, 47, 45);
+        line-height: 0.861;
+        text-align: center;
+        margin-top: 20px;
+    
+       
+    
+      
+}
+.home .container-fluid .row .col-xl-12 p{
+    
+        font-size: 15px;
+      
+        color: rgb(55, 47, 45);
+      text-align: center;
+     
+        margin-top: 20px;
+        letter-spacing: 0.3px;
+      
+       
+      
+}
+.home .container-fluid .row .col-xl-12 button{
+   
+        background-color: rgb(21, 163, 113);
+        position: absolute;
+        left: 450px;
+        top:650px;
+        width: 350px;
+        height: 66px;
+        z-index: 97;
+        border:none;
+        outline:none;
+     
+            font-size: 18px;
+         
+            color: rgb(255, 255, 255);
+            line-height: 1.5;
+            text-align: center;
+        
+           
+          
+ 
+      
+}
+
+
+.coffee .container-fluid{
+    background-image: url(beans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:900px;
+    padding-top: 200px;
+    margin-top: 100px;
+  
+   
+   
+}
+.coffee .container-fluid .row .col-xl-12 h1{
+    
+        font-size: 91.745px;
+      
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: left;
+       margin-left: 150px;
+      
+
+}
+.coffee .container-fluid .row .col-xl-12 h3{
+   
+        font-size: 36px;
+      
+        color: rgb(255, 255, 255);
+        line-height: 0.861;
+        text-align: left;
+     
+        width: 557px;
+        height: 238px;
+        z-index: 71;
+        margin-left: 150px;
+        margin-top: 50px;
+      
+      
+}
+.coffee .container-fluid .row .col-xl-12 p{
+    font-size: 15px;
+      
+    color: rgb(255, 255, 255);
+  
+    text-align: left;
+ 
+    width: 557px;
+    height: 238px;
+    z-index: 71;
+    margin-left: 150px;
+  
+
+}
+.ethics {
+    width: 1400px;
+    background: #ffd03f;
+  
+}
+.ethics .container .row .col-xl-7 h2{
+   
+        font-size: 60.416px;
+       
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 50px;
+      
+
+}
+.ethics .container .row .col-xl-7 h4{
+ 
+        font-size: 36px;
+    
+        color: rgb(255, 255, 255);
+        line-height: 0.861;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 50px;
+      
+      
+}
+.ethics .container .row .col-xl-7 p{
+    font-size: 15px;
+    
+    color: rgb(255, 255, 255);
+   
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.menu .container .row .col-xl-4 .box img{
+    position: relative;
+}
+
+.menu .container .row .col-xl-4 .box .content h2{
+   
+    position: absolute;
+    top:130px;
+    left:50px;
+   
+        font-size: 54px;
+      
+        color: rgb(255, 255, 255);
+        line-height: 0.574;
+        
+        
+      
+    
+  
+      
+
+   
+
+
+}
+.menu .container .row .col-xl-4 .box .content p{
+    position: absolute;
+    top:200px;
+    left:50px;
+   
+        font-size: 10px;
+      
+        color: rgb(255, 255, 255);
+       
+
+}
+.menu .container .row .col-xl-4 .box .content button{
+ 
+        border-width: 2px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        position: absolute;
+        left: 70px;
+        top: 250px;
+        width: 187px;
+        height: 39px;
+        background: none;
+        outline:none;
+       
+      
+            font-size: 14px;
+          
+            color: rgb(255, 255, 255);
+            line-height: 1.929;
+            text-align: center;
+          
+      
+}
+.menu .container .row .col-xl-4 .box .content button i{
+    color:rgb(255, 255, 255);
+    margin-right: 8px;
+}
+.bite {
+    background:#ffe0bc;
+    padding-bottom:50px;
+    width: 1400px;
+
+}
+.bite .container .row .col-xl-6 h1 {
+   
+        font-size: 83.416px;
+     
+        color: rgb(55, 47, 45);
+        line-height: 1.2;
+        text-align: left;
+        font-weight: bold;
+        margin-top: 100px;
+   
+      
+
+}
+.bite .container .row .col-xl-6 h4{
+   
+        font-size: 36px;
+       
+        color: rgb(55, 47, 45);
+        line-height: 0.861;
+        text-align: left;
+        margin-top: 40px;
+      
+      
+}
+.bite .container .row .col-xl-6 .box h3{
+   
+        font-size: 18px;
+        
+        color: rgb(55, 47, 45);  
+        line-height: 1.722;
+     text-align: left;
+     margin-top:30px ;
+     
+   
+    
+      
+}
+.bite .container .row .col-xl-6 .box h5{
+  
+    font-size: 18px;
+        
+    color: rgb(55, 47, 45); 
+    text-align: right;
+    margin-top: -28px;
+  
+
+}
+.bite .container .row .col-xl-6 .box p {
+    color: rgb(55, 47, 45);  
+
+  
+}
+.bite  button{
+ 
+        background-color: rgb(21, 163, 113);
+    
+        width: 350px;
+        height: 66px;
+        border:none;
+        outline:none;
+     
+            font-size: 20px;
+           
+            color: rgb(255, 255, 255);
+            line-height: 1.929;
+            text-align: center;
+            margin-left: 35%;
+            margin-top: 20px;
+          
+          
+     
+      
+}
+.bite button i{
+    margin-right: 10px;
+}
+.gallery{
+    background: #372f2d;
+  
+}
+.contact{
+    background: #f3c7b4;
+    padding-bottom: 300px; 
+    padding-top:200px;
+  
+  
+}
+.contact .container .row .col-xl-8 .box{
+    height:600px;
+    width:900px;
+   
+    margin-left: 20%;
+}
+
+.contact .container .row .col-xl-8 .box .container .row .col-xl-5{
+    background: #71c6a8;
+}
+.contact .container .row .col-xl-8 .box .container .row .col-xl-5 h1{
+  
+        font-size: 83.416px;
+       
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: left;
+        margin-top: 20px;
+     
+}
+.contact .container .row .col-xl-8 .box .container .row .col-xl-5 h4{
+   
+        font-size: 36px;
+      
+        color: rgb(255, 255, 255);
+        line-height: 0.861;
+        text-align: left;
+       margin-top: 10px;
+      
+}
+.contact .container .row .col-xl-8 .box .container .row .col-xl-5 h6{
+    font-size: 20px;
+      
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+
+}
+.contact .container .row .col-xl-8 .box .container .row .col-xl-5 button{
+        height:50px;
+        width:250px;
+        background: none;
+        outline: none;
+        border:1px solid #ffffff;
+   
+        font-size: 14px;
+        
+        color: rgb(255, 255, 255);
+        line-height: 1.929;
+        text-align: center;
+        margin-top: 30px;
+        
+      
+      
+}
+.contact .container .row .col-xl-8 .box .container .row .col-xl-5 button i{
+    margin-right: 10px;
+}
+.footer{
+    background:#372f2d;
+}
+.footer .container .row .col-xl-6 h2{
+   
+        font-size: 20px;
+        
+        color: rgb(255, 255, 255);
+        line-height: 1.5;
+        text-align: left;
+        margin-top: 30px;
+      
+      
+
+}
+.footer .container .row .col-xl-6 .box {
+    margin-top: 30px;
+}
+.footer .container .row .col-xl-6 .box i{
+    float:left;
+    font-size:20px;
+    color:#ffffff;
+}
+.footer .container .row .col-xl-6 .box h3{
+    display: inline-block;
+    font-size:20px;
+    color:#ffffff;
+    margin-left: 8px;
+
+}
+.footer .container .row .col-xl-6 .icons{
+    margin-top: 20px;
+    
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px){
+    .home {
+        width:1110px;
+      
+      
+    }
+    .home .container-fluid .row .col-xl-12 h1{
+        font-size:300px;
+    }
+  
+}
+@media screen and (max-width: 1080px){
+    .home .container-fluid .row .col-xl-12 h1{
+        font-size:250px;
+    }
+    .coffee .container-fluid{
+     max-width: 100%;
+     
+    }
+
+}
+
+
+    
+@media screen and (max-width: 992px){
+    .header .container .row .col-xl-10 .navbar .fa-bars{
+        display: block;
+    }
+    .home .container-fluid .row .col-xl-12 h1{
+        font-size:200px;
+    }
+    .home .container-fluid .row .col-xl-12 button{
+        left:250px;
+        top:680px;
+    }
+    .menu .container .row .col-xl-4 .box  {
+        margin-top:40px;
+      
+    } 
+ 
+   
+
+
+}
+@media screen and (max-width: 768px){
+    .home .container-fluid .row .col-xl-12 h1{
+        font-size:150px;
+    } 
+    .home .container-fluid .row .col-xl-12 img{
+        margin-left: 20%;
+        margin-top: -30%;
+        transform: rotate(5deg);
+    
+    }
+    .home .container-fluid .row .col-xl-12 button{
+        left:200px;
+        top:620px;
+    }
+
+    .coffee .container-fluid .row .col-xl-12 p{
+        margin-left: 30px;
+    }
+  
+   
+
+}
+@media screen and (max-width: 575px){
+    .home .container-fluid .row .col-xl-12 h1{
+        font-size:100px;
+    } 
+    .home .container-fluid .row .col-xl-12 img{
+        margin-left: 10%;
+        margin-top: -5%;
+        transform: rotate(5deg);
+    
+    }
+    .coffee .container-fluid .row .col-xl-12 h1{
+        margin-left: 50px;
+    }
+    .coffee .container-fluid .row .col-xl-12 h3{
+        margin-left: 50px;
+
+    }
+    .coffee .container-fluid .row .col-xl-12 p{
+        font-size:13px;
+
+    }
+    .home .container-fluid .row .col-xl-12 button{
+        left:100px;
+        top:780px;
+    }
+
+
+}
+@media screen and (max-width: 450px){
+    .home .container-fluid .row .col-xl-12 h1{
+        font-size:50px;
+    } 
+    .home .container-fluid .row .col-xl-12 img{
+        margin-left: 10%;
+        margin-top: -5%;
+        transform: rotate(5deg);
+    
+    }
+    .home .container-fluid .row .col-xl-12 h3{
+        font-size:30px;
+    }
+    .home .container-fluid .row .col-xl-12 p{
+        font-size:10px;
+    }
+    .home .container-fluid .row .col-xl-12 button{
+        left:50px;
+        top:650px;
+    }
+    .coffee .container-fluid .row .col-xl-12 h3{
+      font-size:20px;
+    }
+    .coffee .container-fluid .row .col-xl-12 p{
+      margin-left: 0px;
+      font-size: 12px;
+    } 
+    
+    .menu .container  {
+        width:800px;
+    
+      
+    } 
+    .bite button{
+        height:70px;
+        width:200px;
+    } 
+   
+   
+
+
+
+
+}
+@media screen and (max-width: 380px){
+    .home .container-fluid .row .col-xl-12 button{
+        left:10px;
+        top:590px;
+    }
+    .coffee .container-fluid .row .col-xl-12 h1{
+        margin-left: 20px;
+    }
+    .coffee .container-fluid .row .col-xl-12 h3{
+        margin-left: 5px;
+        font-size: 28px;
+     }
+     .coffee .container-fluid .row .col-xl-12 p{
+       margin-left: 0px;
+       font-size: 10px;
+     }
+     .bite button{
+         height:50px;
+         width:150px;
+     } 
+
+
+
+}
+
+
+                
+                  
+              
+              
+        
+     
+      
+
+
+
+  
